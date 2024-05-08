@@ -7,12 +7,14 @@
 
 #include <string>
 #include <vector>
+#include <stdint.h>
 
 #include <boost/foreach.hpp>
 #include <boost/variant.hpp>
 
 #include "keystore.h"
 #include "bignum.h"
+#include "util.h"
 
 class CCoins;
 class CTransaction;
